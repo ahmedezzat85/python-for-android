@@ -403,7 +403,7 @@ JNIEXPORT void JNICALL Java_org_kivy_android_PythonService_nativeStart(
 // Webview and service_only uses some more functions:
 
 //void Java_org_kivy_android_PythonActivity_nativeSetenv(
-void Java_com_synaplexus_synxai_SynxAILoader_nativeSetenv(
+void Java_com_synaplexus_synxai_android_SynxAILoader_nativeSetenv(
                                     JNIEnv* env, jclass cls,
                                     jstring name, jstring value)
 //JNIEXPORT void JNICALL SDL_JAVA_INTERFACE(nativeSetenv)(
@@ -421,7 +421,7 @@ void Java_com_synaplexus_synxai_SynxAILoader_nativeSetenv(
 
 
 //void Java_org_kivy_android_PythonActivity_nativeInit(JNIEnv* env, jclass cls, jobject obj)
-void Java_com_synaplexus_synxai_SynxAILoader_nativeInit(JNIEnv* env, jclass cls, jobject obj)
+void Java_com_synaplexus_synxai_android_SynxAILoader_nativeInit(JNIEnv* env, jclass cls, jobject obj)
 {
   /* This nativeInit follows SDL2 */
 
